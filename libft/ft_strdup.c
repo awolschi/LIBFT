@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/19 19:03:09 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/26 19:16:53 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/06 16:51:18 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 char	*ft_strdup(const char *s1)
 {
-	size_t	i;
+	int		i;
 	char	*dst;
 
 	dst = (char *)malloc(ft_strlen(s1) + 1);

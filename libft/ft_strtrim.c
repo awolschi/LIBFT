@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/23 21:44:18 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/26 18:16:55 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/06 17:00:38 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 static int	ft_checkset(char const *set, char const c)
 {
-	size_t	i;
-	size_t	len;
+	int	i;
+	int	len;
 
 	i = 0;
 	len = ft_strlen(set);
@@ -30,8 +30,8 @@ static int	ft_checkset(char const *set, char const c)
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t	is;
-	size_t	ie;
+	int	is;
+	int	ie;
 
 	is = 0;
 	while (ft_checkset(set, s1[is]))

@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 17:59:50 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/27 15:16:01 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/06 16:57:50 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char	*str;
-	size_t	i;
-	size_t	j;
+	int		i;
+	int		j;
 
 	i = ft_strlen(s);
 	str = malloc((i + 1) * sizeof(char));

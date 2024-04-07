@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 17:37:30 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/22 19:05:57 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/06 16:59:09 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-//{
-//	char	s1[32] = "AdrianIstDerCoolste";
-//	char	s2[32] = "AdrianIstDerKrasseste";
-
-//	printf("%i\n", ft_strncmp(s1, s2, 10));
-//}

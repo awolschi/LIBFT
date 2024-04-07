@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 18:10:15 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/22 18:58:55 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/05 22:36:17 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-// if (!dst)
-// 	return (0);

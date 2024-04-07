@@ -6,14 +6,11 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/23 19:51:28 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/27 18:05:48 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/05 18:46:00 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 char		*ft_itoa(int n);
 static int	ft_len(int n);

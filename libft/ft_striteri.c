@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 17:58:11 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/24 18:54:44 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/06 16:51:40 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	size_t	i;
+	int	i;
 
 	i = -1;
 	while (s[++i] != '\0')

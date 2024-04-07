@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 19:23:44 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/12 15:16:52 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/05 18:50:35 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,3 @@ int	ft_atoi(const char *str)
 	}
 	return (r * s);
 }
-
-//#include <stdio.h>
-//int	main(int argc, char *argv[])
-//{
-//	printf("%d", ft_atoi(argv[1]));
-//}

@@ -6,7 +6,7 @@
 /*   By: awolschi <awolschi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 16:26:32 by awolschi          #+#    #+#             */
-/*   Updated: 2024/03/26 19:25:04 by awolschi         ###   ########.fr       */
+/*   Updated: 2024/04/06 16:48:46 by awolschi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strchr(char *s, int c)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
 	while (s[i] != '\0')
@@ -27,16 +27,3 @@ char	*ft_strchr(char *s, int c)
 		return ((char *)(s + i));
 	return (0);
 }
-
-// chatGPT:
-// {
-// 	if (!s || !c)
-// 		return (0);
-// 	while (*s)
-// 	{
-// 		if (*s == (char)c)
-// 			return (s);
-// 		s++;
-// 	}
-// 	return (0);
-// }
